@@ -1,7 +1,7 @@
 const adminModel = require('../models/adminModel')
 const sellerModel = require('../models/sellerModel')
 const sellerCustomerModel = require('../models/chat/sellerCustomerModel')
-const bcrpty = require('bcrypt')
+const bcrpty = require('bcryptjs')
 const formidable = require('formidable')
 const cloudinary = require('cloudinary').v2
 const { responseReturn } = require('../utiles/response')

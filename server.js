@@ -13,7 +13,7 @@ const socket = require('socket.io')
 const server = http.createServer(app)
 // 
 app.use(cors({
-    origin: ['https://nutriofuel.com','https://www.nutriofuel.com', 'http://localhost:3001','http://localhost:3000'],
+    origin: ['http://localhost:3001','http://localhost:3000'],
     credentials: true
 }))
 
